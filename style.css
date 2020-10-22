@@ -1,0 +1,315 @@
+/*google fonts integrate*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+/* global css*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Quicksand', sans-serif;
+}
+a,span,p,input{
+	font-family: 'Roboto', sans-serif;
+}
+
+/*header part css start frome here*/
+
+.header{
+	width: 100%;
+	background:white;
+	padding: 20px;
+    margin: 0px 17px
+}
+.header span{
+	font-size: 19px;
+    font width: 600;
+    margin: left: 10px;
+
+    /*1st banner/service part css start frome here*/
+
+}
+.banner{
+		width: 100%;
+        height: 80vh;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+    float: left;
+    margin: 76px 66p
+}
+.col-6{
+	width: 50%;
+	float: left;
+}	
+.col-1{
+	width: 15%;
+    float: left;
+}
+.col-11{
+	float: right;
+    width: 81%;
+    line-height: 0.5;
+}
+.left-banner{
+	    margin: 36px;
+}
+.banner .left h1{
+	font-size: 35px;
+	margin: 16px;
+}
+.p{
+	font-size: 16px;
+    margin: 20px;
+    line-height: 1.5;
+    color: #4c527d; 
+}
+.banner button{
+	padding: 20px 50px;
+    border-radius: 32px;
+    outline: none;
+    border: 3px solid #FF5733;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.banner .left-button{
+	background-color: #FF5733;
+	font-size: 18px;
+	color: white;
+}
+.banner .right-button{
+	background-color: white;
+	font-size: 18px;
+	color: #FF5733;
+}
+.testimonial{
+	width: 99%;
+    margin: 15px 4px;
+}
+.message{
+	height: 140px;
+	width: 100%;
+	background-color: #f6f4fc;
+	border-left:4px solid #f5a782;
+    position: relative;
+}
+.message p{
+	font-size: 14px;
+    padding: 31px;
+    color: #4c527d;
+    line-height: 1.5;
+    font-style: italic;
+    position: relative;
+}
+.corner-box{
+	height: 31px;
+    width: 21px;
+    background-color: #f6f4fc;
+    position: absolute;
+    bottom:-8px;
+    margin-left: 16px;
+    transform: rotate(45deg);
+    position: absolute;
+}
+.user{
+    height: 64px;
+    width: 92%;
+    margin-top: 14px;
+}
+.user img{
+	width: 53px;
+}
+.user-info{
+	margin: -18px -27px;
+    padding: 10px;
+    font-size: 14px;
+    color: #4c527d;
+}
+.right-banner{
+	width: 69%;
+    margin: -11px -13px;
+}
+.see-all-book{
+	text-align: center;
+}
+.see-all-book a:hover{
+	color:#ed6524;
+}
+.circle{
+	height: 115px;
+    width: 115px;
+    background: green;
+    border-radius: 58px;
+    text-align: center;
+    line-height: 7;
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    right: 378px;
+    top: 109px;
+}
+/*1st banner/service part css stop here*/
+
+/*2nd banner/service part css start frome here*/
+.service{
+    display: flow-root;
+    width: 100%;
+    height: auto;
+    background-image:linear-gradient(to bottom,#f6f8fc 0%,#fff 70%);
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.service-title{
+    text-align: center;
+    padding:121px 0;
+
+}
+.service-title h1{
+    font-size: 34px;
+    margin: 22px 0;
+}
+
+.service-title p{
+    font-size: 17px;
+    color: #4c527d;
+    line-height: 25.5px;
+}
+.service-body{
+    width: 100%
+    float:left;
+    height: 70vh;
+}
+
+.col{
+    width: 33.33%;
+    float: left;
+}
+.item{
+    text-align: center;
+    padding: 0 18px;
+}
+.item h3{
+    margin: 10px 0;
+
+}
+.item p{
+    font-size: 16px;
+    color: #4c527d;
+    margin: 0 18px;
+    padding: 15px;
+}
+/*2nd banner/service part css stop here*/
+/*what's include item part css start*/
+
+.item-section{
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+}
+.item-title{
+    text-align: center;
+}
+.item-title h1{
+    font-size:48px;
+}
+.item-body{
+    width: 100%;
+    float: left;
+
+}
+.col-6{
+    width: 50%;
+    float: left;
+    margin: 60px 0;
+}
+.item-img{
+    padding: 50px;
+}
+.col-6{
+    width: 50%;
+}
+.item-list{
+    padding: 50px 5px 0 0;
+}
+.item-list ul li{
+    font-size: 18px;
+    margin-bottom: 23px;
+    color: #4c527d;
+    list-style: none;
+}
+.item-list ul li i{
+    color: #7FCDB8;
+    margin-right: 10px;
+}
+.item-button{
+margin-left: 34px;
+}
+.item-button button{
+    padding: 20px 50px;
+    border-radius: 32px;
+    outline: none;
+    border: 3px solid #FF5733;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: #FF5733;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+/*what's include item part css end here*/
+
+/*for whom this book css start here*/
+.customer-section{
+    width: 100%;
+    height: auto;
+}
+.customer-title{
+    text-align: center;
+    height: 70vh;
+}
+.customer-title h1{
+    font-size:44px;
+
+}
+.description p{
+    font-size: 18px;
+    color: #4c527d;
+    line-height:24px;
+    padding: 0 229px;
+}
+.user-list{
+    width: 50%
+    padding:100px;
+    text-align: center;
+    margin-right: 136px;
+}
+.user-list ul li{
+    font-size: 18px;
+    margin-bottom: -14px;
+    list-style: none;
+}
+.user-list ul li i{
+    color: #7FCDB8;
+    margin-right: 10px;
+}
+.user-list ul li h4{
+    margin-left: 
+    color:black;
+}
+.user-details p{
+    margin-left: 179px;
+}
+
+/*for whom this book css stop here*/
+
